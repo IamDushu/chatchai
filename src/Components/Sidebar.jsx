@@ -9,7 +9,7 @@ const Sidebar = (props) => {
         <Navbar user={props.user} />
         <Search /> 
         <Chats user={props.user}/>
-    </div>
+    </div> 
   )
 }
 

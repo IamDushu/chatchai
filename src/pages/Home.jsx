@@ -11,7 +11,7 @@ const Home = () => {
   return (
       <div className='home'>
         <div className="container">
-            <Sidebar user={userValue} />
+            <Sidebar user={userValue} /> 
             <Chat />
         </div>
       </div>

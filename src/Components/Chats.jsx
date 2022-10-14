@@ -27,7 +27,7 @@ const Chats = (props) => {
         <div className="userChat">
           <img src="https://st3.depositphotos.com/4111759/13425/v/1600/depositphotos_134255588-stock-illustration-empty-photo-of-male-profile.jpg" alt=''></img>
           <div className="userChatInfo">
-            <span>{user.userId}</span>
+            <span>{user._id}</span>
             {/* <p>Hello</p> */}
           </div>
         </div>
